@@ -1,0 +1,9 @@
+
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px */
+}

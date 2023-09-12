@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Club Registration</title>
+    <link rel="stylesheet" href="./join.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Join the Football Club</h2>
+        <form id="registration-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="position">Preferred Position:</label>
+            <input type="text" id="position" name="position" required>
+
+            <button type="submit">Join</button>
+        </form>
+        <p id="registration-status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

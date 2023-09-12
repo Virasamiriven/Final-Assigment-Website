@@ -1,0 +1,25 @@
+body{ font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh;
+    
+    background-image: url('./photo/Location\ Background.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; }
+
+h1{font-size: 35px;
+   font-weight: 700;
+   text-align: center;
+   color: white;}
+
+p{font-size: 27px;
+  text-align: center;
+  color: white;}
+
+a{font-size: 24px;
+  color: white;}
+
+a:hover{color:red;}
